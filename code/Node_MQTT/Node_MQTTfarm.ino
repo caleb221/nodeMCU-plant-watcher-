@@ -20,9 +20,9 @@
 int nodeId =1;//CHANGE THIS FOR EACH NODE!
 //===========================
 
-const char* ssid = "plantFi";
-const char* passw =  "password";
-const char* mqtt_server = "192.168.3.254";
+const char* ssid = "WIFI_SSID";
+const char* passw =  "WIFI_PASSWORD";
+const char* mqtt_server = "MQTT_SERVER_IP";
 
 char* topicOut="nodePlant/data";
 char* topicIn="nodePlant/commands";
