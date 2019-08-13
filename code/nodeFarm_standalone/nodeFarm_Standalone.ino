@@ -71,8 +71,8 @@ int16_t adc0,adc1,adc2,adc3;
 int exHydro,exLight,exBat;
 //===========================
 //      Server stuff
-const char* ssid="Steal_your_cookies";
-const char* passw="password";
+const char* ssid="WIFI_SSID";
+const char* passw="WIFI_PASSWORD";
 String html,javaScript,css;
 //===========================
 //      time location stuff
