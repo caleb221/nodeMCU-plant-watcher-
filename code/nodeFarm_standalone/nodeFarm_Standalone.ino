@@ -1,3 +1,39 @@
+/*===============================================
+ * This is the base code for a NodeMCU 
+ *  standalone IoT device!
+ * If you want to be able to water a plant 
+ * from your phone/computer/any connected device, here is the software!
+ * --> in addition to watering your plant, you are also able to see:
+ *     Temperature
+ *     Humiditity
+ *     the % of water in the plant's soil
+ *     the amount of light near the module
+ *     The % of battery left on 
+ *     --> In order to conserve energy, the node will automatically shut down at 
+             11pm (indoChina time) and restart at 7am
+ *     --> ALSO there is code for a 5V water storage detector commented out
+ * The NodeMCU is using the websocket protocol for bi-directional communication
+ *     between you (your computer/phone) and the microcontroller
+ *     the data is packaged as JSON, should you wish to keep a log its already
+ *     in a usable format.
+ * The circuit should be pretty easy to build according to the code.
+    --> please see schematics for more details.
+ * the small 5V DC water pump is connected to pin D7
+ * --> please note the water pump is connected to a TIP120 transistor
+ *     and 2 external batteries are used to power the device,
+ *     but given a larger battery it should be fine
+ * the NodeMCU is given 5V through a buck voltage regulator
+ *****************************************  
+ *  Special thanks to all those helpful
+ *  people on the internet who found
+ *  solutions to all my problems
+ ****************************************  
+ * -Caleb Seifert
+ *=============================================== 
+ */
+
+
+
 #include<WebSocketsServer.h>
 #include<ESP8266WiFi.h>
 #include<ESP8266WebServer.h>
