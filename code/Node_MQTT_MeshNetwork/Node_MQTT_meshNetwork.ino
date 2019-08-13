@@ -24,16 +24,16 @@
 int nodeId =2;//CHANGE THIS FOR EACH NODE!
 //===========================
 
-const char* ssid = "Steal_your_cookies";
-const char* passw =  "password";
-const char* mqtt_server = "192.168.3.254";
+const char* ssid = "MASTER_WIFI_SSID";
+const char* passw =  "MASTER_WIFI_PASSWORD";
+const char* mqtt_server = "MQTT_SERVER_IP";
 
 char* topicOut="nodePlant/data";
 char* topicIn="nodePlant/commands";
 
 // credentials for ESP8266 AP
-const char *ap_ssid = "plantFi";
-const char *ap_password = "password";
+const char *ap_ssid = "NEW_WIFI_SSID";
+const char *ap_password = "NEW_WIFI_PASSWORD";
 
 
 
