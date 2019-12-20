@@ -38,29 +38,23 @@ Please note that you will NOT be able to program the module if you solder it ont
           Battery pack/Batteries
           
           Some Resistors, Diodes, and capacitors (values depend on your power source)
-    
- Pins used:
- 
-      NodeMCU
-      
+# Pictures     
+  
+<img src="https://github.com/caleb221/nodeMCU-plant-watcher-/blob/master/hardware/Full%20working%20module.jpg" width="600" height="300">
+<img src="https://github.com/caleb221/nodeMCU-plant-watcher-/blob/master/Screenshot1.jpg" width="150" height="300">
+<img src="https://github.com/caleb221/nodeMCU-plant-watcher-/blob/master/hardware/Schematic.png" width="300" height="300">
+
+ # Pins used: 
+      NodeMCU:
           D0: RST
-          
           D1 : SCL (ADS1115)
-          
-          D2 : SDA (ADS1115)
-          
-          D3 : DHT22
-          
+          D2 : SDA (ADS1115) 
+          D3 : DHT2
           D5 : Waterpump/Valve
-          
       ADS1115:
-          
           0 : Light sensor
           1 : Hygrometer
           2 : extra hygrometer
           3 : Battery monitor
-          
-        
-          
-          
+
   
