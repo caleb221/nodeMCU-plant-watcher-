@@ -17,7 +17,7 @@ In the hardware folder the files include a full schematic for the PCB as well as
 Please note that you will NOT be able to program the module if you solder it onto the board 
     (the reset pin is connected to GPIO16 and will NOT allow new uploads while connected to the board)
  
- HARDWARE:
+# HARDWARE
           
           NodeMCU ESP8266 (PCB was designed with the CP2102 module)
           
