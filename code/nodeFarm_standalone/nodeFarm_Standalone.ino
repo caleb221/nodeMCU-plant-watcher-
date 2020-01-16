@@ -127,12 +127,15 @@ void loop() {
   struct tm* p_tm = localtime(&now);
   int hour =p_tm->tm_hour;
   //Serial.println(hour);
+  /*
+  // IN TESTING
   if(hour > 21 || hour < 7)
   {
     //sleep for 3 hours or so
     goSleep();  
   }
 
+*/
 
 socket.loop();
 server.handleClient();
